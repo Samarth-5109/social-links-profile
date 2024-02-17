@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Inter-Bold;
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: Inter-Regular;
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: hsl(0, 0%, 8%);
+}
+.container {
+  width: 25%;
+  margin: auto;
+}
+.component {
+  padding: 2rem;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+}
+.name {
+  font-size: 22px;
+  font-family: Inter-Bold;
+}
+.location {
+  font-size: 13px;
+  font-family: Inter-SemiBold;
+  color: #c0ed1c;
+}
+.likes {
+  font-size: 13px;
+  font-family: Inter-Regular;
+}
+a {
+  text-decoration: none;
+  font-family: Inter-SemiBold;
+  color: hsl(0, 0%, 100%);
+}
+.links {
+  background-color: blue;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* background-color: hsl(0, 0%, 13%); */
